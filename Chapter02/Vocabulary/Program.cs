@@ -20,3 +20,9 @@ foreach (AssemblyName name in myApplication.GetReferencedAssemblies())
     }
     Console.WriteLine($"{assembly.DefinedTypes.Count()} types with {methodCount:N0} methods in {name.Name} assembly.");
 }
+
+
+/// Outputting emojis
+Console.OutputEncoding = System.Text.Encoding.UTF8;
+string grinningEmoji = "\U0001F600";
+Console.WriteLine($"Grinning emoji: {grinningEmoji}");

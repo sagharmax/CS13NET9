@@ -2,7 +2,7 @@
 //#error version
 
 
-///  Revealing the extent of the C# vocabulary
+// *** // Revealing the extent of the C# vocabulary
 Assembly? myApplication = Assembly.GetEntryAssembly();
 if (myApplication is null)
 {
@@ -22,7 +22,7 @@ foreach (AssemblyName name in myApplication.GetReferencedAssemblies())
 }
 
 
-/// Outputting emojis
+// *** // Outputting emojis
 Console.OutputEncoding = System.Text.Encoding.UTF8;
 string grinningEmoji = "\U0001F600";
 Console.WriteLine($"Grinning emoji: {grinningEmoji}");

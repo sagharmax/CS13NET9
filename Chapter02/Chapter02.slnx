@@ -1,5 +1,6 @@
 <Solution>
   <Project Path="AsyncConsole/AsyncConsole.csproj" />
+  <Project Path="Exercise_Numbers/Exercise_Numbers.csproj" />
   <Project Path="Formatting/Formatting.csproj" />
   <Project Path="Numbers/Numbers.csproj" />
   <Project Path="Variables/Variables.csproj" />
